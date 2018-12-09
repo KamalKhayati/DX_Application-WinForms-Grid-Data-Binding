@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F87ED79A-2FD8-4686-808C-422AB6D33DE1}</ProjectGuid>
+    <ProjectGuid>{93357E5E-0832-4E71-A8A9-6176497A7B0F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Data_Source_Configuration_Wizard</RootNamespace>
-    <AssemblyName>Data Source Configuration Wizard</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Data_Source_Configuration_Wizard2</RootNamespace>
+    <AssemblyName>Data Source Configuration Wizard2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

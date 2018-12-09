@@ -117,16 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="questionsBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>336, 17</value>
+  <metadata name="entityInstantFeedbackSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>424, 17</value>
   </metadata>
-  <metadata name="sqlDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="entityInstantFeedbackSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>209, 17</value>
+  </metadata>
+  <metadata name="entityServerModeSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <data name="sqlDataSource1.ResultSchemaSerializable" xml:space="preserve">
-    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlF1ZXN0aW9ucyI+PEZpZWxkIE5hbWU9IklkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iR3JvdXBJZCIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkNsYXNzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlF1ZXN0aW9uVGV4dCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDYXNlMSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDYXNlMiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDYXNlMyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDYXNlNCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBbnN3ZXIiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJDb2RlIiBUeXBlPSJJbnQzMiIgLz48L1ZpZXc+PC9EYXRhU2V0Pg==</value>
-  </data>
-  <metadata name="questionsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>153, 17</value>
   </metadata>
 </root>

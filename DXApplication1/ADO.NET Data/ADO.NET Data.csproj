@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F87ED79A-2FD8-4686-808C-422AB6D33DE1}</ProjectGuid>
+    <ProjectGuid>{32AEB953-6E38-427A-BB8A-11CAC0781DC8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Data_Source_Configuration_Wizard</RootNamespace>
-    <AssemblyName>Data Source Configuration Wizard</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>ADO.NET_Data</RootNamespace>
+    <AssemblyName>ADO.NET Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -34,12 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v18.2" />
-    <Reference Include="DevExpress.CodeParser.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v18.2" />
-    <Reference Include="DevExpress.DataAccess.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v18.2" />
     <Reference Include="DevExpress.Sparkline.v18.2.Core" />
-    <Reference Include="DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v18.2" />
     <Reference Include="DevExpress.Printing.v18.2.Core" />
     <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -57,6 +54,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DB_EFCF_DXApplication_Exercise_04DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_EFCF_DXApplication_Exercise_04DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_EFCF_DXApplication_Exercise_04DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_EFCF_DXApplication_Exercise_04DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +86,28 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="app.config" />
+    <None Include="DB_EFCF_DXApplication_Exercise_04DataSet.xsc">
+      <DependentUpon>DB_EFCF_DXApplication_Exercise_04DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_EFCF_DXApplication_Exercise_04DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_EFCF_DXApplication_Exercise_04DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_EFCF_DXApplication_Exercise_04DataSet.xss">
+      <DependentUpon>DB_EFCF_DXApplication_Exercise_04DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_EFCF_DXApplication_Exercise_04DataSet1.xsc">
+      <DependentUpon>DB_EFCF_DXApplication_Exercise_04DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DB_EFCF_DXApplication_Exercise_04DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_EFCF_DXApplication_Exercise_04DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_EFCF_DXApplication_Exercise_04DataSet1.xss">
+      <DependentUpon>DB_EFCF_DXApplication_Exercise_04DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
